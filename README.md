@@ -1,8 +1,8 @@
 # colors-console
 
-> 在命令行输出带颜色的语句
+> 在命令行中输出带字体格式（颜色及其他）的语句
 
-#### API说明
+## API说明
 
 ```js
 /**
@@ -37,7 +37,7 @@ colors(styles, string)
 'cyanBG'    | 背景色为青色
 'whiteBG'   | 背景色为白色
 
-#### 使用
+## 使用
 
 ```js
 const colors = require('colors-console')
@@ -46,10 +46,10 @@ console.log('颜色是：' + colors('red', '红色'))
 console.log(colors(['red','greenBG','underline'], '这是红色、绿色背景、下划线'))
 ```
 
-#### 如果不想使用插件可参考
+## 如果不想使用插件可参考
 
 > [【node使用】实现console输出不同颜色](https://blog.csdn.net/guang_s/article/details/90380581)
 
-#### github地址
+## github地址
 
 > [https://github.com/shiguang0116/colors-console](https://github.com/shiguang0116/colors-console)
