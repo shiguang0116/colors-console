@@ -1,6 +1,6 @@
 {
   "name": "colors-console",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "在命令行中输出带字体格式（颜色及其他）的语句",
   "main": "index.js",
   "scripts": {

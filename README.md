@@ -37,7 +37,11 @@ colors(styles, string)
 'cyanBG'    | 背景色为青色
 'whiteBG'   | 背景色为白色
 
-## 使用
+## 下载使用
+
+```bash
+npm i -D colors-console
+```
 
 ```js
 const colors = require('colors-console')
