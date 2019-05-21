@@ -24,8 +24,17 @@ var styles = {
     'whiteBG': '\x1B[47m' // 背景色为白色
 }
 
-function colors(key, source) {
-    return styles[key] + source + '\x1B[0m'
+function colors(keys, source) {
+    var values = ''
+    if(typeof keys === 'string'){
+        values = styles[keys]
+    }
+    else {
+        keys.forEach(key => {
+            values += styles[key]
+        });
+    }
+    return values + source + styles['reset']
 }
 
 module.exports = colors
